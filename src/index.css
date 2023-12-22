@@ -1,6 +1,7 @@
 .hover-underline-animation {
   position: relative;
   padding-bottom: 6px;
+  cursor: pointer;
 }
 
 .hover-underline-animation:after {
@@ -55,4 +56,120 @@
 .hamburger input:checked + svg .line-top-bottom {
   stroke-dasharray: 20 300;
   stroke-dashoffset: -32.42;
+}
+.mbtn {
+  border: 3px solid #32cdf9 !important;
+  color: #ffffff !important;
+  transition: 0.3s ease !important;
+}
+.mbtn:hover {
+  background-color: #32cdf9 !important;
+  color: #000 !important;
+}
+.mbtn2 {
+  border: 2px solid #32cdf9 !important;
+  color: #ffffff !important;
+  transition: 0.3s ease !important;
+}
+.mbtn2 {
+  border: 2px solid #32cdf9 !important;
+  color: #ffffff !important;
+  transition: 0.3s ease !important;
+}
+.mbtn i {
+  transition: 0.2s ease !important;
+}
+.mbtn:hover i {
+  transform: rotateZ(42deg) translate(-2px) !important;
+}
+.absolute {
+  position: absolute;
+  top: 900% !important;
+}
+.loader {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolutess {
+  position: fixed !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  top: 0;
+  left: 0;
+  z-index: 102131;
+  background-color: var(--primary) !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.loader2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+}
+
+.loader2:before {
+  content: '';
+  width: 48px;
+  height: 5px;
+  background: #32cef99c;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
+
+.loader2:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #32cdf9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
+
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
+
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+
+  0%,
+    100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1);
+  }
 }

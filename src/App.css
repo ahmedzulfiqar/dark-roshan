@@ -10,7 +10,6 @@ a {
 }
 *:focus,
 *:active {
-  border: none !important;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -21,6 +20,9 @@ a {
   --primary: #0c0c0c;
   --color: #fdfdfd;
   --new: #ffffff09;
+}
+body {
+  background-color: #000 !important;
 }
 
 .bg-main {
@@ -65,4 +67,71 @@ a {
 .widths {
   max-width: 100% !important;
   width: 1700px !important;
+}
+.myslider {
+  height: 80vh !important;
+}
+.myslider img {
+  height: 80vh !important;
+}
+.absoluter {
+  position: absolute;
+  top: 63px !important;
+  z-index: 99;
+}
+.zindex {
+  position: relative !important;
+}
+.newtext {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+
+  z-index: 10001;
+}
+.coverimg {
+  position: absolute;
+  background-color: #000000d2;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 80vh;
+}
+@media screen and (max-width: 800px) {
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+  background-color: #000000d9;
+  z-index: 1000;
+}
+p {
+  word-break: break-all !important;
+}
+
+button:active {
+  scale: 0.9 !important;
+}
+.videocover {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(0%,0%) !important;
+}
+.promovideo {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, 0%) !important;
+  height: 80vh !important;
 }
