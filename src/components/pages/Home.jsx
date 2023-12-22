@@ -9,7 +9,6 @@ function Home() {
       <Header />
       <Main />
       <div className="absolute">a</div>
-     
     </div>
   );
 }

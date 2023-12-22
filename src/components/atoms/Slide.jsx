@@ -14,7 +14,7 @@ function Slide({ data }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const slowSpeed = offsetY / 4;
+  const slowSpeed = offsetY / 3;
   return (
     <motion.div
       viewport={{ once: true }}
@@ -106,7 +106,7 @@ function Slide({ data }) {
           Portfolio<i class="fa-solid fa-location-arrow ps-2"></i>
         </motion.button>
         <motion.button
-          className=" btn mbtn2 btn-sm  rounded-1 fw-bold small mt-4 mx-auto text-uppercase d-lg-none d-block "
+          className=" btn mbtn2 btn-sm  rounded-1 fw-bold small mt-3 mx-auto text-uppercase d-lg-none d-block "
           viewport={{ once: false }}
           initial="hidden"
           whileInView="visible"

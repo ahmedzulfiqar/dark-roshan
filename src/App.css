@@ -1,7 +1,6 @@
 * {
   text-decoration: none !important;
   list-style: none !important;
-  letter-spacing: 2px;
 }
 a {
   border: none !important;
@@ -122,16 +121,30 @@ p {
 button:active {
   scale: 0.9 !important;
 }
-.videocover {
-  position: absolute;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(0%,0%) !important;
-}
+
 .promovideo {
   position: absolute;
-  top: 50% !important;
+  top: 0% !important;
   left: 50% !important;
   transform: translate(-50%, 0%) !important;
   height: 80vh !important;
+  z-index: 1 !important;
+}
+.Videoshowblock {
+  position: relative;
+  z-index: 10000 !important;
+}
+
+.buttonvover {
+  position: absolute;
+  top: 50% !important;
+  left: 50% !important;
+  z-index: 100000;
+  transform: translate(-50%, -50%) !important;
+}
+.shadows {
+  text-shadow: 0px 0px 5px #0000008d;
+}
+.iconimg {
+  width: 100px !important;
 }
