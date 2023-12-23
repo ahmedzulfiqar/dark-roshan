@@ -8,7 +8,6 @@ function Home() {
     <div className="row m-0">
       <Header />
       <Main />
-      <div className="absolute">a</div>
     </div>
   );
 }

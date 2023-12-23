@@ -4,7 +4,7 @@ import Servicecards from "../atoms/Servicecards";
 function Portfolioblock() {
   return (
     <div className="row m-0 bg-primarys py-md-5 py-4 justify-content-center px-2">
-      <div className="col-lg-8 col-12 py-2 text-md-center text-start">
+      <div className="col-lg-8 col-12 py-2 text-lg-center text-start">
         <div className="fs-1 text-uppercase d-lg-block d-none text-light fw-bolder">
           OUR SERVICES
         </div>
@@ -41,7 +41,7 @@ function Portfolioblock() {
         <button className=" btn mbtn btn-lg fw-bold fs-6 mt-4 px-4 py-2 mx-auto  rounded-1 text-uppercase d-lg-block d-none ">
           Services<i class="fa-solid fa-location-arrow ps-2"></i>
         </button>
-        <button className=" btn mbtn2 btn-sm fw-bold small mt-3 text-uppercase rounded-1 d-lg-none d-block ">
+        <button className=" btn mbtn2 btn-sm fw-bold small mt-0 text-uppercase rounded-1 d-lg-none d-block ">
         Services
           <i class="fa-solid fa-location-arrow ps-2 d-md-block d-none"></i>
         </button>

@@ -148,3 +148,22 @@ button:active {
 .iconimg {
   width: 100px !important;
 }
+.mynavbarimg {
+  width: 65px;
+}
+.backgroudnpara {
+  background-image: url("./components//media/photo-1419242902214-272b3f66ee7a.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.swiper-pagination-bullets {
+  transform: translateY(100px);
+}
+.imgde {
+  position: absolute;
+  top: -5vh !important;
+  left: 50% !important;
+  transform: translate(-50%, 0%);
+}

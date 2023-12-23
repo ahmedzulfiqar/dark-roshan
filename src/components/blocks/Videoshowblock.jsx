@@ -15,8 +15,8 @@ function Videoshowblock() {
             muted
             loop
           ></video>
-          <div className="div text-center  mt-md-1 mt-0 buttonvover  d-flex  h-100 align-items-center justify-content-center">
-            <div className="d-block">
+          <div className="div text-center  mt-md-1 mt-0 buttonvover w-100 d-flex  h-100 align-items-center justify-content-center">
+            <div className="d-block  w-100">
               <div className="display-5 fw-bold text-light shadows text-uppercase mt-md-4">
                 Roshan Studio <br />{" "}
                 <span className="text-main">Demo Reel</span>
