@@ -68,7 +68,7 @@ function Slide({ data }) {
           }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <span className="text-main"> {data.heading.split(" ")[0]}</span>{" "}
+          <span className="text-lessmain"> {data.heading.split(" ")[0]}</span>{" "}
           {data.heading.split(" ")[1]} <br />
           {data.heading.split(" ")[2]} {data.heading.split(" ")[3]}
         </motion.div>

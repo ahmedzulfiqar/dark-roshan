@@ -34,19 +34,19 @@ function Reviewcard({ data }) {
             <p class="card-text text-start ">
               <ul class="list-unstyled d-flex justify-content-start">
                 <li>
-                  <i class="fas fa-star fa-sm text-info me-1"></i>
+                  <i class="fas fa-star fa-sm text-lessmain me-1"></i>
                 </li>
                 <li>
-                  <i class="fas fa-star fa-sm text-info me-1"></i>
+                  <i class="fas fa-star fa-sm text-lessmain me-1"></i>
                 </li>
                 <li>
-                  <i class="fas fa-star fa-sm text-info me-1"></i>
+                  <i class="fas fa-star fa-sm text-lessmain me-1"></i>
                 </li>
                 <li>
-                  <i class="fas fa-star fa-sm text-info me-1"></i>
+                  <i class="fas fa-star fa-sm text-lessmain me-1"></i>
                 </li>
                 <li>
-                  <i class="fas fa-star fa-sm text-info"></i>
+                  <i class="fas fa-star fa-sm text-lessmain"></i>
                 </li>
               </ul>
             </p>

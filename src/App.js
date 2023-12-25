@@ -3,6 +3,7 @@ import "./index.css";
 import Navbar from "./components/blocks/Navbar";
 import Home from "./components/pages/Home";
 import { useEffect, useState } from "react";
+import Routerfile from "./components/routes/Routerfile";
 function App() {
   const [loading, setloading] = useState(false);
   useEffect(() => {
@@ -19,7 +20,7 @@ function App() {
           <div class="loader2"></div>
         </div>
       ) : (
-        <Home />
+        <Routerfile />
       )}
     </div>
   );

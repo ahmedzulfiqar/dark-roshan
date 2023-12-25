@@ -10,7 +10,7 @@ function List({ open, setopen }) {
         <Listitem data={"Home"} />
         <Listitem data={"About"} />
         <Listitem data={"Portfolio"} />
-        <Listitem data={"testimonials"} />
+        <Listitem data={"Services"} />
         <Listitem data={"Contact"} />
       </div>
       <div className="col text-end d-xl-none d-block  align-self-center">

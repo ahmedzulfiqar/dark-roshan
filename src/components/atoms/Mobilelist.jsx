@@ -32,7 +32,7 @@ function Mobilelist({ open, setopen }) {
           <Mobilelistitem data={"Home"} />
           <Mobilelistitem data={"About"} />
           <Mobilelistitem data={"Portfolio"} />
-          <Mobilelistitem data={"testimonials"} />
+          <Mobilelistitem data={"Services"} />
           <Mobilelistitem data={"Contact"} />
         </div>
       </motion.div>

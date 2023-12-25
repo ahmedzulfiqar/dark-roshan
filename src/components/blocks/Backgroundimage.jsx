@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 function Backgroundimage() {
   return (
-    <div className="row m-0  py-md-5 py-4 justify-content-center px-2">
+    <div className="row m-0  py-md-5 py-4 justify-content-center px-2" >
       <div className="col-lg-8 col-12 py-3 text-md-center text-uppercase text-center">
         <div className="fs-1 text-uppercase d-lg-block d-none text-light fw-bolder">
           testemonials

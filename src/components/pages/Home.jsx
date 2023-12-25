@@ -6,7 +6,6 @@ import Main from "../layout/Main";
 function Home() {
   return (
     <div className="row m-0">
-      <Header />
       <Main />
     </div>
   );
