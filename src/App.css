@@ -14,14 +14,14 @@ a {
 }
 
 :root {
-  --main: #32cdf9;
-  --lessmain: #32cdf9;
-  --primary: #0c0c0c;
+  --main: #7507fe;
+  --lessmain: #7507fe;
+  --primary: #f3f3f3;
   --color: #fdfdfd;
   --new: #ffffff09;
 }
 body {
-  background-color: #000 !important;
+  background-color: #fff !important;
 }
 
 .bg-main {
@@ -91,7 +91,7 @@ body {
 }
 .coverimg {
   position: absolute;
-  background-color: #000000d2;
+  background-color: #f3f3f3ea;
   width: 100vw;
   left: 0;
   top: 0;
@@ -111,7 +111,7 @@ body {
   left: 0;
   width: 100vw;
   height: 80vh;
-  background-color: #000000d9;
+  background-color: #f3f3f394;
   z-index: 1000;
 }
 p {
@@ -166,4 +166,17 @@ button:active {
   top: -5vh !important;
   left: 50% !important;
   transform: translate(-50%, 0%);
+}
+.filterr {
+  filter: grayscale(100%) !important;
+  transition: 0.4s ease;
+}
+.filterr:hover {
+  filter: grayscale(0) !important;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 800px) {
+  .filterr {
+    height: 40vh !important;
+  }
 }

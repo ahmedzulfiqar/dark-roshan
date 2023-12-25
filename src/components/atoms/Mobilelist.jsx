@@ -22,18 +22,18 @@ function Mobilelist({ open, setopen }) {
   return (
     <>
       <motion.div
-        className="col-12 absoluter d-xl-none d-block bg-primarys px-1 p-0  border-black"
+        className="col-12 absoluter d-xl-none shadow d-block bg-primarys px-1 p-0  border-0"
         animate={open ? "open" : "closed"}
         initial={{ opacity: 0 }}
         variants={variants}
         transition={{ duration: 0.4, delay: 0 }}
       >
         <div className="row m-0 py-1">
-          <Mobilelistitem data={"Home"} />
-          <Mobilelistitem data={"About"} />
-          <Mobilelistitem data={"Portfolio"} />
-          <Mobilelistitem data={"Services"} />
-          <Mobilelistitem data={"Contact"} />
+          <Mobilelistitem data={"Home"} open={open} setopen={setopen} />
+          <Mobilelistitem data={"About"} open={open} setopen={setopen} />
+          <Mobilelistitem data={"Portfolio"} open={open} setopen={setopen} />
+          <Mobilelistitem data={"Services"} open={open} setopen={setopen} />
+          <Mobilelistitem data={"Contact"} open={open} setopen={setopen} />
         </div>
       </motion.div>
     </>

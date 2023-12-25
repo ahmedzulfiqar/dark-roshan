@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import List from "../atoms/List";
 import Mobilelist from "../atoms/Mobilelist";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setopen] = useState(false);
@@ -10,12 +11,18 @@ function Navbar() {
         <div className="mx-auto px-md-5 widths ">
           <div className="row m-0 py-xl-3 py-3  px-md-5  justify-content-between ">
             <div className="col-xl-5 col-9 text-start  p-0  align-self-center">
-              <div className="fs-3  d-xl-block d-none text-light fw-bold text-uppercase align-self-center">
+              <Link
+                className="fs-3  d-xl-block d-none text-dark fw-bold text-uppercase align-self-center"
+                to="/home"
+              >
                 <span className="text-main ">Roshan</span> Studio
-              </div>
-              <div className="fs-5  ps-0 d-xl-none d-block text-light fw-bold text-uppercase align-self-center">
+              </Link>
+              <Link
+                className="fs-5  ps-0 d-xl-none d-block text-dark fw-bold text-uppercase align-self-center"
+                to="/home"
+              >
                 <span className="text-main ">Roshan</span> Studio
-              </div>
+              </Link>
             </div>
             <List open={open} setopen={setopen} />
           </div>

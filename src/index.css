@@ -12,7 +12,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #32cdf9;
+  background-color: #7507fe;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -36,7 +36,7 @@
 
 .line {
   fill: none;
-  stroke: #32cdf9;
+  stroke: #7507fe;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
@@ -58,22 +58,22 @@
   stroke-dashoffset: -32.42;
 }
 .mbtn {
-  border: 3px solid #32cdf9 !important;
-  color: #ffffff !important;
+  border: 3px solid #7507fe !important;
+  color: #000000 !important;
   transition: 0.3s ease !important;
 }
 .mbtn:hover {
-  background-color: #32cdf9 !important;
+  background-color: #7507fe !important;
   color: #000 !important;
 }
 .mbtn2 {
-  border: 2px solid #32cdf9 !important;
-  color: #ffffff !important;
+  border: 2px solid #7507fe !important;
+  color: #000000 !important;
   transition: 0.3s ease !important;
 }
 .mbtn2 {
-  border: 2px solid #32cdf9 !important;
-  color: #ffffff !important;
+  border: 2px solid #7507fe !important;
+  color: #000000 !important;
   transition: 0.3s ease !important;
 }
 .mbtn i {
@@ -131,7 +131,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: #32cdf9;
+  background: #7507fe;
   position: absolute;
   top: 0;
   left: 0;

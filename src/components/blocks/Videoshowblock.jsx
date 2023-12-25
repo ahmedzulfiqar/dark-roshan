@@ -1,4 +1,5 @@
 import React from "react";
+import vifro from "../media/pexels-pk-g-6924608 (1080p).mp4";
 
 function Videoshowblock() {
   return (
@@ -9,7 +10,7 @@ function Videoshowblock() {
       <div className="col-lg-12 px-0  col-12 py-0 text-md-center text-start h-100">
         <div style={{ position: "relative" }} className="h-100">
           <video
-            src="https://deepstudio.info/wp-content/uploads/2023/01/15.DEEP-DUBAI-BTS.mp4"
+            src={vifro}
             autoPlay={true}
             className="p-0 m-0 promovideo position-absolute z-1"
             muted

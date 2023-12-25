@@ -3,11 +3,11 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className=" border border-dark border-opacity-10 text-start bg-primarys  text-muted">
+      <footer className=" border-bottom border-dark pt-3 border-opacity-10 text-start bg-primarys  text-muted">
         <div className="container  text-start ">
           <div className="row mt-3">
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4  ps-md-2 ps-4">
-              <h6 className="text-uppercase text-light fw-bold mb-4">
+              <h6 className="text-uppercase text-dark fw-bold mb-4">
                 <i className="fas fa-gem me-3 text-main"></i>Roshan Studio
               </h6>
               <p>
@@ -87,10 +87,10 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <footer class="bg-body-tertiary  text-light text-center text-lg-start">
+      <footer class="bg-body-tertiary  text-dark text-center text-lg-start">
         <div class="text-center p-3">
           © 2020 Copyright:
-          <a class="text-light" href="">
+          <a class="text-dark" href="">
             &nbsp; RoshanStudio.com
           </a>
         </div>
