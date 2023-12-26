@@ -200,3 +200,7 @@ button:active {
   position: fixed !important;
   z-index: 11110 !important;
 }
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}

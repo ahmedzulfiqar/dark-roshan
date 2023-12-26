@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 function Slide({ data }) {
   const [offsetY, setOffsetY] = useState(0);
 
@@ -14,6 +15,7 @@ function Slide({ data }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const slowSpeed = offsetY / 3;
   return (
     <motion.div
@@ -103,7 +105,9 @@ function Slide({ data }) {
           }}
           transition={{ duration: 0.2, delay: 0.3 }}
         >
-          Portfolio<i class="fa-solid fa-location-arrow ps-2"></i>
+          <Link to={"/promo-videos"}>
+            Portfolio<i class="fa-solid fa-location-arrow ps-2"></i>
+          </Link>
         </motion.button>
         <motion.button
           className=" btn mbtn2 btn-sm  rounded-1 fw-bold small mt-3 mx-auto text-uppercase d-lg-none d-block "
@@ -119,7 +123,9 @@ function Slide({ data }) {
           }}
           transition={{ duration: 0.2, delay: 0.3 }}
         >
-          Portfolio<i class="fa-solid fa-location-arrow ps-2"></i>
+          <Link to={"/promo-videos"}>
+            Portfolio<i class="fa-solid fa-location-arrow ps-2"></i>
+          </Link>
         </motion.button>
       </div>
     </motion.div>

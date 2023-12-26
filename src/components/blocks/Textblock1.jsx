@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Textblock1() {
   return (
@@ -29,11 +30,15 @@ function Textblock1() {
           Roshan studio.
         </p>
         <button className=" btn mbtn btn-lg fw-bold fs-6 mt-4 px-4 py-2 mx-auto  rounded-1 text-uppercase d-lg-block d-none ">
-          About Us<i class="fa-solid fa-location-arrow ps-2"></i>
+          <Link to={"/about"}>
+            About Us<i class="fa-solid fa-location-arrow ps-2"></i>{" "}
+          </Link>
         </button>
         <button className=" btn mbtn2 btn-sm fw-bold small mt-3 text-uppercase rounded-1 d-lg-none d-block ">
-          About Us
-          <i class="fa-solid fa-location-arrow ps-2 d-md-block d-none"></i>
+          <Link to={"/about"}>
+            About Us
+            <i class="fa-solid fa-location-arrow ps-2 d-md-block d-none"></i>
+          </Link>
         </button>
       </div>
     </div>

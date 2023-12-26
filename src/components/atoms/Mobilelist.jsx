@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 function Mobilelist({ open, setopen }) {
   const [drop, setdrop] = useState(false);
   const variants = {
+    open: { opacity: 1, x: 0 },
+    closed: { opacity: 0, x: 300 },
+  };
+  const variants2 = {
     open: { opacity: 1, display: "block" },
     closed: { opacity: 0, display: "none" },
   };
@@ -25,11 +29,11 @@ function Mobilelist({ open, setopen }) {
   return (
     <>
       <motion.div
-        className="col-12 absoluter d-xl-none shadow d-block bg-primarys px-1 p-0  border-0 position-fixed"
+        className="col-12 absoluter d-xl-none shadow d-block  bg-primarys px-1 p-0  border-0 position-fixed"
         animate={open ? "open" : "closed"}
         initial={{ opacity: 0 }}
         variants={variants}
-        transition={{ duration: 0.4, delay: 0 }}
+        transition={{ duration: 0.2, delay: 0 }}
       >
         <div className="row m-0 py-1">
           <Mobilelistitem data={"Home"} open={open} setopen={setopen} />
@@ -47,7 +51,7 @@ function Mobilelist({ open, setopen }) {
               className="bg-primarys  shadow-sm py-2 px-2 border mt-3"
               animate={drop ? "open" : "closed"}
               initial={{ opacity: 0 }}
-              variants={variants}
+              variants={variants2}
               transition={{ duration: 0.2, delay: 0 }}
             >
               <div className="row m-0">

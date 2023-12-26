@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -47,24 +48,24 @@ function Footer() {
                 Useful links
               </h6>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/about" className="text-reset">
                   About Us
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/promo-videos" className="text-reset">
                   Portfolio
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/Services" className="text-reset">
                   Services
-                </a>
+                </Link>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <Link to="/contact" className="text-reset">
                   Contact Us
-                </a>
+                </Link>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4  ps-md-0 ps-4">
