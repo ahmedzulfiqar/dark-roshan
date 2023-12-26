@@ -104,6 +104,12 @@ body {
   .swiper-button-next {
     display: none !important;
   }
+  .myslider {
+    height: 60vh !important;
+  }
+  .myslider img {
+    height: 60vh !important;
+  }
 }
 .overlay {
   position: absolute;
