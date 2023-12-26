@@ -7,7 +7,7 @@ function Navbar() {
   const [open, setopen] = useState(false);
   return (
     <>
-      <div className="col-12 bg-primarys px-md-2 px-0 ps-3 shadow  ">
+      <div className="col-12 bg-primarys px-md-2 px-0 ps-3 shadow-sm  fixed-top der" >
         <div className="mx-auto px-md-5 widths ">
           <div className="row m-0 py-xl-3 py-3  px-md-5  justify-content-between ">
             <div className="col-xl-5 col-9 text-start  p-0  align-self-center">

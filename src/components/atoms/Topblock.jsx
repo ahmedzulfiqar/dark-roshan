@@ -55,7 +55,7 @@ function Topblock({ data }) {
             <div className="overlay"></div>
             <div className="newtext  w-100">
               <div className="display-1 fw-bolder mb-md-2 mb-2 text-uppercase text-center text-dark">
-                <span className="text-lessmain">
+                <span className="text-main">
                   {" "}
                   {data.name.split(" ")[0]}
                 </span>{" "}

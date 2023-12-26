@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Mobilelist from "./Mobilelist";
 function Mobilelistitem({ data, open, setopen }) {
   return (
     <Link

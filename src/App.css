@@ -15,7 +15,7 @@ a {
 
 :root {
   --main: #7507fe;
-  --lessmain: #7507fe;
+  --lessmain: #7607fe62;
   --primary: #f3f3f3;
   --color: #fdfdfd;
   --new: #ffffff09;
@@ -138,7 +138,7 @@ button:active {
 }
 .Videoshowblock {
   position: relative;
-  z-index: 10000 !important;
+  z-index: 1000 !important;
 }
 
 .buttonvover {
@@ -181,8 +181,22 @@ button:active {
   filter: grayscale(0) !important;
   transform: scale(1.1);
 }
+.marginset {
+  margin-top: 75px !important;
+}
 @media screen and (max-width: 800px) {
   .filterr {
     height: 40vh !important;
   }
+  .marginset {
+    margin-top: 60px !important;
+  }
+}
+.sew {
+  position: fixed !important;
+  z-index: -10 !important;
+}
+.der {
+  position: fixed !important;
+  z-index: 11110 !important;
 }
