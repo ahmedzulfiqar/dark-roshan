@@ -3,9 +3,14 @@ import { Link } from "react-router-dom";
 
 function Textblock1() {
   return (
-    <div className="row m-0 bg-primarys py-md-5 py-4 justify-content-center px-2">
+    <div
+      className="row m-0 py-md-5 py-4 justify-content-center px-2"
+ 
+    >
       <div className="col-lg-7 col-12 py-2 text-lg-center text-start">
-        <div className="fs-1 text-uppercase d-lg-block d-none text-dark fw-bolder">
+        <div
+          className="fs-1  text-uppercase d-lg-block d-none text-dark fw-bolder"
+        >
           Roshan studio
         </div>
         <div className="fs-3 text-uppercase d-lg-none d-block text-dark fw-bolder">

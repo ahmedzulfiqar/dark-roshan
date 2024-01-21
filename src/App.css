@@ -14,8 +14,8 @@ a {
 }
 
 :root {
-  --main: #7507fe;
-  --lessmain: #7607fe62;
+  --main: #2B78F3;
+  --lessmain: #2B78F3;
   --primary: #f3f3f3;
   --color: #fdfdfd;
   --new: #ffffff09;
@@ -138,14 +138,14 @@ button:active {
 }
 .Videoshowblock {
   position: relative;
-  z-index: 1000 !important;
+  z-index: 10 !important;
 }
 
 .buttonvover {
   position: absolute;
   top: 50% !important;
   left: 50% !important;
-  z-index: 100000;
+  z-index: 101;
   transform: translate(-50%, -50%) !important;
 }
 .shadows {
@@ -198,9 +198,9 @@ button:active {
 }
 .der {
   position: fixed !important;
-  z-index: 11110 !important;
+  z-index: 100;
 }
-a{
+a {
   text-decoration: none !important;
   color: inherit !important;
 }

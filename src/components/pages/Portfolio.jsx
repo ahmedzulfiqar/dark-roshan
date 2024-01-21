@@ -6,7 +6,7 @@ import Footer from "../blocks/Footer";
 function Portfolio({ data }) {
   return (
     <div className="row m-0">
-      <Topblock data={{ name: data.name }} />
+      
       <Portfoliocover data={data} />
     </div>
   );
