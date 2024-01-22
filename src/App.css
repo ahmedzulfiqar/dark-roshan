@@ -14,8 +14,8 @@ a {
 }
 
 :root {
-  --main: #2B78F3;
-  --lessmain: #2B78F3;
+  --main: #2b78f3;
+  --lessmain: #9a40ff;
   --primary: #f3f3f3;
   --color: #fdfdfd;
   --new: #ffffff09;
@@ -203,4 +203,69 @@ button:active {
 a {
   text-decoration: none !important;
   color: inherit !important;
+}
+.moving-image {
+  position: fixed;
+  left: 20%;
+  animation: moveImage 15s linear infinite alternate;
+}
+.moving-image2 {
+  position: fixed;
+  right: 20%;
+  animation: moveImage 15s linear infinite alternate;
+  animation-delay: 2s;
+}
+.moving-image3 {
+  position: fixed;
+  right: 10%;
+  bottom: 20%;
+  animation: moveImage 15s linear infinite alternate;
+}
+.moving-image4 {
+  position: fixed;
+  left: 0%;
+  bottom: 20%;
+  animation: moveImage 15s linear infinite alternate;
+  animation-delay: 2s;
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@keyframes moveImage2 {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 }

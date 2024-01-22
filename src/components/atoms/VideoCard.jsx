@@ -11,13 +11,28 @@ function VideoCard({ data, parentdata, index }) {
   const handleMouseLeave = () => {
     setIsHovered(false);
   };
+  const animationVariants = index % 2 === 0
+    ? {
+        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: -60 },
+      }
+    : {
+        visible: { opacity: 1, x: 0 },
+        hidden: { opacity: 0, x: 60 },
+      };
 
   return (
     <motion.div
-      className="col-lg-6 col-md-6 col-6  my-lg-3 my-2 px-1 overflow-hidden rounded-2 "
-      style={{ position: "relative" }}
-      onHoverStart={handleHover}
-      onHoverEnd={handleMouseLeave}
+    className="col-lg-6 col-md-6 col-6 my-lg-3 my-2 px-1 overflow-hidden rounded-2"
+    key={parentdata.name}
+    style={{ position: "relative" }}
+    onHoverStart={handleHover}
+    onHoverEnd={handleMouseLeave}
+    viewport={{ once: false }}
+    initial="hidden"
+    whileInView="visible"
+    variants={animationVariants}
+    transition={{ duration: 1, delay: 0.3 }}
     >
       <div className="overflow-hidden rounded-2 ">
         <motion.img
@@ -48,7 +63,6 @@ function VideoCard({ data, parentdata, index }) {
           {parentdata.name}
         </div>
       </motion.div>{" "}
-   
     </motion.div>
   );
 }
