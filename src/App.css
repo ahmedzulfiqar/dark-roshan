@@ -16,12 +16,12 @@ a {
 :root {
   --main: #2b78f3;
   --lessmain: #9a40ff;
-  --primary: #f3f3f3;
-  --color: #fdfdfd;
+  --primary: #15181a;
+  --color: #f89e52;
   --new: #ffffff09;
 }
 body {
-  background-color: #fff !important;
+  background-color: #111415 !important;
 }
 
 .bg-main {
@@ -228,7 +228,33 @@ a {
   animation: moveImage 15s linear infinite alternate;
   animation-delay: 2s;
 }
-
+.moving-imagee {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  z-index: -1;
+  animation: moveImage 15s linear infinite alternate;
+}
+.moving-image22 {
+  position: absolute;
+  right: 20%;
+  top: 18%;
+  animation: moveImage 15s linear infinite alternate;
+  animation-delay: 2s;
+}
+.moving-image33 {
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
+  animation: moveImage 15s linear infinite alternate;
+}
+.moving-image44 {
+  position: absolute;
+  left: 0%;
+  bottom: 20%;
+  animation: moveImage 15s linear infinite alternate;
+  animation-delay: 2s;
+}
 @keyframes moveImage {
   0% {
     transform: translate(0px, 0px) rotate(0deg);

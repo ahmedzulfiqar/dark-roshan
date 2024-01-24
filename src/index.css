@@ -59,21 +59,21 @@
 }
 .mbtn {
   border: 3px solid #2B78F3 !important;
-  color: #000000 !important;
+  color: #fff !important;
   transition: 0.3s ease !important;
 }
 .mbtn:hover {
   background-color: #2B78F3 !important;
-  color: #000 !important;
+  color: #fff !important;
 }
 .mbtn2 {
   border: 2px solid #2B78F3 !important;
-  color: #000000 !important;
+  color: #ffff !important;
   transition: 0.3s ease !important;
 }
 .mbtn2 {
   border: 2px solid #2B78F3 !important;
-  color: #000000 !important;
+  color: #fff !important;
   transition: 0.3s ease !important;
 }
 .mbtn i {

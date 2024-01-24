@@ -32,7 +32,7 @@ function App() {
   };
   return (
     <div
-      className="App bg-light "
+      className="App text-light "
     >
       {loading ? (
         <div className="absolutess">

@@ -173,7 +173,7 @@ function Barshop({}) {
                 className={`${
                   location.pathname === `/${item.path}`
                     ? "text-lessmain"
-                    : "text-dark"
+                    : "text-light"
                 } fw-bolder text-red text-uppercase text-lessmain`}
                 style={{
                   width: "max-content",

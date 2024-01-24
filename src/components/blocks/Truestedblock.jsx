@@ -14,21 +14,21 @@ function Truestedblock() {
         style={{ backgroundColor: "#f3f3f394" }}
       >
         <div className="col-lg-8 col-12 py-2 text-lg-center text-start">
-          <div className="fs-1 text-uppercase d-lg-block d-none text-dark fw-bolder">
+          <div className="fs-1 text-uppercase d-lg-block d-none text-light fw-bolder">
             PROJECTS
           </div>
-          <div className="fs-3 text-uppercase d-lg-none d-block text-dark fw-bolder">
+          <div className="fs-3 text-uppercase d-lg-none d-block text-light fw-bolder">
             PROJECTS
           </div>
           <hr
             className="bg-main opacity-100 border-0  mx-lg-auto w-25"
             style={{ height: ".1px" }}
           />
-          <p className="text-dark mt-md-4 mt-3 d-lg-block d-none opacity-75">
+          <p className="text-light mt-md-4 mt-3 d-lg-block d-none opacity-75">
             Roshan Studio is your trusted partner Let us transform your ideas
             into visually stunning realities.
           </p>
-          <p className="text-dark mt-md-4 mt-0 d-lg-none d-block small opacity-75">
+          <p className="text-light mt-md-4 mt-0 d-lg-none d-block small opacity-75">
             Roshan Studio is your trusted partner Let us transform your ideas
             into visually stunning realities.
           </p>

@@ -6,10 +6,10 @@ function Portfolioblock() {
   return (
     <div className="row m-0 bg-primarys py-md-5 py-4 justify-content-center px-2">
       <div className="col-lg-8 col-12 py-2 text-lg-center text-start">
-        <div className="fs-1 text-uppercase d-lg-block d-none text-dark fw-bolder">
+        <div className="fs-1 text-uppercase d-lg-block d-none text-light fw-bolder">
           OUR SERVICES
         </div>
-        <div className="fs-3 text-uppercase d-lg-none d-block text-dark fw-bolder">
+        <div className="fs-3 text-uppercase d-lg-none d-block text-light fw-bolder">
           OUR SERVICES
         </div>
         <hr

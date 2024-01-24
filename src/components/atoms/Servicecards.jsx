@@ -6,8 +6,8 @@ function Servicecards({ data }) {
       <div className="card bg-transparent border-0  p-0">
         <img src={data.img} className="img-fluid iconimg mx-lg-auto d-lg-block d-none" />
         <div className="card-body px-lg-3 px-0">
-          <div className="fs-3 text-dark fw-bolder mb-2">{data.heading}</div>
-          <p className="text-dark opacity-75 text-start">{data.para}</p>
+          <div className="fs-3 text-light fw-bolder mb-2">{data.heading}</div>
+          <p className="text-light opacity-75 text-start">{data.para}</p>
         </div>
       </div>
     </div>

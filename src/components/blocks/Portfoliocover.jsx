@@ -56,11 +56,11 @@ function Portfoliocover({ data }) {
             </div>
             <div className="display-5 mt-lg-2 text-uppercase d-lg-block d-none  text-main fw-bolder te">
               Seeing is Believing{" "}
-              <div className="text-dark"> Dive into Our Editing Portfolio</div>
+              <div className="text-light"> Dive into Our Editing Portfolio</div>
             </div>{" "}
             <div className="fs-3 mt-2 text-uppercase d-lg-none d-block  text-main  fw-bolder">
               Seeing is Believing{" "}
-              <div className="text-dark"> Dive into Our Editing Portfolio</div>
+              <div className="text-light"> Dive into Our Editing Portfolio</div>
             </div>
           </motion.div>
           <Barshop />

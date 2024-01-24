@@ -18,17 +18,17 @@ function Reviewcard({ data }) {
         </div>
         <div class="col-md-8  px-lg-3 px-0 mt-lg-0 mt-5 text-start align-self-center">
           <div class="card-body ms-lg-3">
-            <h5 class="card-title text-dark display-6 mb-2 fw-bold">
+            <h5 class="card-title text-light display-6 mb-2 fw-bold">
               {data.name}
             </h5>
             <h5 class="card-title text-main mb-md-4 mb-3">
               {" "}
               {data.profession}
             </h5>
-            <p class="card-text text-dark d-md-block d-none opacity-75">
+            <p class="card-text text-light d-md-block d-none opacity-75">
               {data.text}
             </p>
-            <p class="card-text text-dark opacity-75 d-md-none d-block small">
+            <p class="card-text text-light opacity-75 d-md-none d-block small">
               {data.text}
             </p>
             <p class="card-text text-start ">

@@ -9,8 +9,7 @@ import Footer from "../blocks/Footer";
 function Main() {
   return (
     <div className="col-12 p-0">
-      <div className="row m-0">
-        <div className="container px-0">
+      <div className="row m-0 justify-content-center">
           <Carouselcomp />
           <Textblock1 />
           <Videoshowblock />
@@ -20,7 +19,6 @@ function Main() {
           <Footer />
         </div>
       </div>
-    </div>
   );
 }
 

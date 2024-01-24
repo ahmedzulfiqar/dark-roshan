@@ -24,6 +24,7 @@ function Routerfile() {
     <>
       <div className="row m-0">
         <div className="col-12 p-0">
+          <Header />
           <div className="marginset">
             <Routes>
               <Route path="/" element={<Navigate to="/home" />} />

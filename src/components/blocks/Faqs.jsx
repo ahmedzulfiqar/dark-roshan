@@ -8,14 +8,14 @@ function Faqs() {
     <div className="col-12 p-0">
       <div className="row m-0 py-md-5 py-4 justify-content-center px-2">
         <div className="col-lg-8 col-12 py-2 text-lg-center text-start">
-          <div className="fs-1 text-uppercase d-lg-block d-none text-dark fw-bolder">
+          <div className="fs-1 text-uppercase d-lg-block d-none text-light fw-bolder">
             FREQUENTLY ASKED QUESTIONS
           </div>
-          <div className="fs-3 text-uppercase d-lg-none d-block text-dark fw-bolder">
+          <div className="fs-3 text-uppercase d-lg-none d-block text-light fw-bolder">
             FREQUENTLY ASKED QUESTIONS
           </div>
           <hr
-            className="bg-main opacity-100 border-0  mx-lg-auto w-25 mb-lg-5"
+            className="bg-dark opacity-100 border-0  mx-lg-auto w-25 mb-lg-5"
             style={{ height: ".1px" }}
           />{" "}
           <div className="row m-0 justify-content-center">

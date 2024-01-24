@@ -41,7 +41,7 @@ function Slide({ data }) {
       <div className="overlay"></div>
       <div className="newtext  w-100">
         <motion.div
-          className="fs-5 mb-md-2 mb-2 text-uppercase text-center text-dark"
+          className="fs-5 mb-md-2 mb-2 text-uppercase text-center text-light"
           viewport={{ once: false }}
           initial="hidden"
           whileInView="visible"
@@ -57,7 +57,7 @@ function Slide({ data }) {
           Roshan Studio
         </motion.div>
         <motion.div
-          className="display-2 fw-bold  d-md-block d-none text-dark zindex mx-auto   text-center text-uppercase"
+          className="display-2 fw-bold  d-md-block d-none text-light zindex mx-auto   text-center text-uppercase"
           viewport={{ once: false }}
           initial="hidden"
           whileInView="visible"
@@ -75,7 +75,7 @@ function Slide({ data }) {
           {data.heading.split(" ")[2]} {data.heading.split(" ")[3]}
         </motion.div>
         <motion.div
-          className="display-4 mb-0 fw-bold d-md-none d-block  text-center text-dark  zindex text-uppercase"
+          className="display-4 mb-0 fw-bold d-md-none d-block  text-center text-light  zindex text-uppercase"
           viewport={{ once: false }}
           initial="hidden"
           whileInView="visible"
